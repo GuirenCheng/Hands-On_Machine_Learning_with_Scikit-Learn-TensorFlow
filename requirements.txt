@@ -1,0 +1,16 @@
+# --- 基础数据处理与可视化 ---
+pandas
+numpy
+matplotlib
+seaborn
+
+# --- 传统机器学习 (第一部分 Ch 1-8) ---
+scikit-learn
+
+# --- 深度学习 (第二部分 Ch 9-16) ---
+tensorflow
+tensorboard
+
+# --- 辅助工具 ---
+jupyter
+requests

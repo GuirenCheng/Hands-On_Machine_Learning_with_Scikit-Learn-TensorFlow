@@ -1,0 +1,17 @@
+# 虚拟环境
+.venv/
+venv/
+ENV/
+
+# PyCharm 配置文件
+.idea/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 数据集 (第2章会用到)
+datasets/
+
+# Jupyter Notebook 临时文件
+.ipynb_checkpoints/
