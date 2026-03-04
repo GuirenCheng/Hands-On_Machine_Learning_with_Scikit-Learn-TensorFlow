@@ -15,3 +15,6 @@ datasets/
 
 # Jupyter Notebook 临时文件
 .ipynb_checkpoints/
+
+
+*.pkl
