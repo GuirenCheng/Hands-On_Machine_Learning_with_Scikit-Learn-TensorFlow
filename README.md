@@ -6,6 +6,7 @@
 - `Chapter02_Housing/`: 第 2 章 - 端到端房价预测项目（回归）
 - `Chapter03_Classification/`: 第 3 章 - MNIST 数字识别项目（分类）
 - `Chapter04_Training_Model/`: 第 4 章 - 模型训练原理（深入线性回归与梯度下降）
+- `Chapter05_SVM/`: 第 5 章 - 支持向量机 (SVM) 的理论与实践，涵盖线性与非线性分类、回归及核技巧。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -20,6 +21,12 @@
     - 掌握多项式回归与过拟合处理。
     - 深入理解正则化技术：岭回归 (Ridge)、套索 (Lasso) 与弹性网络 (Elastic Net)。
     - 学习早期停止法 (Early Stopping) 与逻辑回归 (Logistic / Softmax)。
+- [✅] **第 5 章：支持向量机**
+    - 掌握线性 SVM 的硬间隔与软间隔分类。
+    - 深入理解超参数 $C$ 和 $\gamma$ 对模型拟合（过拟合/欠拟合）的影响。
+    - 实践多项式核与高斯 RBF 核处理非线性数据集。
+    - 学习 SVM 回归（SVR）的 $\epsilon$-不敏感街道原理。
+    - 理解 SVM 底层的二次规划 (QP)、对偶问题及核技巧数学背景。
 
 ## 🛠️ 技术栈
 - Python 3.10+
