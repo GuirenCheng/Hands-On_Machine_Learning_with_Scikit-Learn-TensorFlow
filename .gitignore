@@ -20,3 +20,5 @@ datasets/
 *.pkl
 *.csv
 *.zip
+*.dot
+*.png
