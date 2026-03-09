@@ -7,6 +7,8 @@
 - `Chapter03_Classification/`: 第 3 章 - MNIST 数字识别项目（分类）
 - `Chapter04_Training_Model/`: 第 4 章 - 模型训练原理（深入线性回归与梯度下降）
 - `Chapter05_SVM/`: 第 5 章 - 支持向量机 (SVM) 的理论与实践，涵盖线性与非线性分类、回归及核技巧。
+- `Chapter06_Decision_Trees/`: 第 6 章 - 决策树 (Decision Trees)
+- `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -27,7 +29,18 @@
     - 实践多项式核与高斯 RBF 核处理非线性数据集。
     - 学习 SVM 回归（SVR）的 $\epsilon$-不敏感街道原理。
     - 理解 SVM 底层的二次规划 (QP)、对偶问题及核技巧数学背景。
-
+- [✅] **第 6 章：决策树**
+    - 学习使用 `DecisionTreeClassifier` 进行分类任务。
+    - 掌握决策树的正则化参数（如 `min_samples_leaf`, `max_depth`）以防止过拟合。
+    - 理解 CART 训练算法、基尼不纯度（Gini Impurity）与熵（Entropy）的原理。
+    - 实践 `DecisionTreeRegressor` 处理回归问题。
+    - 分析决策树的局限性（如对训练集旋转和微小变动的高度敏感性）。
+- [✅] **第 7 章：集成学习与随机森林**
+    - 实现投票分类器（Voting Classifiers）提升模型表现。
+    - 掌握 Bagging 和 Pasting 采样技术及随机森林的特征重要性分析。
+    - 深入对比 AdaBoost 与梯度提升（Gradient Boosting）的数学原理与迭代过程。
+    - 实践早期停止法（Early Stopping）优化 GBRT 模型，防止过拟合。
+    - 理解堆叠法（Stacking）的多层架构与元学习器原理。
 ## 🛠️ 技术栈
 - Python 3.10+
 - Scikit-Learn
