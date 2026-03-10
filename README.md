@@ -9,6 +9,7 @@
 - `Chapter05_SVM/`: 第 5 章 - 支持向量机 (SVM) 的理论与实践，涵盖线性与非线性分类、回归及核技巧。
 - `Chapter06_Decision_Trees/`: 第 6 章 - 决策树 (Decision Trees)
 - `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
+- `Chapter08_Dimension_Reduction/`: 第 8 章 - 降维技术（PCA, IPCA, kPCA, LLE）
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -41,6 +42,12 @@
     - 深入对比 AdaBoost 与梯度提升（Gradient Boosting）的数学原理与迭代过程。
     - 实践早期停止法（Early Stopping）优化 GBRT 模型，防止过拟合。
     - 理解堆叠法（Stacking）的多层架构与元学习器原理。
+- [✅] **第 8 章：降维**
+    - 掌握 **PCA (主成分分析)** 的投影原理，学习如何保留最大方差以减少特征维度。
+    - 实践 **PCA 压缩与还原**，在保留 95% 方差的同时显著减小 MNIST 数据集体积（约缩小 80%）。
+    - 学习处理超大数据的 **增量 PCA (IPCA)** 及追求计算速度的 **随机 PCA**。
+    - 深入理解 **核 PCA (kPCA)**，通过网格搜索优化超参数（如核函数类型与 $\gamma$ 值）处理非线性分布。
+    - 掌握 **LLE (局部线性嵌入)** 算法，成功将“瑞士卷”等卷曲流形数据展开为低维平面。
 ## 🛠️ 技术栈
 - Python 3.10+
 - Scikit-Learn
