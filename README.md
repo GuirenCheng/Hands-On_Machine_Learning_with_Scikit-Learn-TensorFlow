@@ -1,7 +1,7 @@
 # Hands-On Machine Learning Study Notes
 
-本项目是我学习《机器学习实战：基于 Scikit-Learn、Keras 和 TensorFlow》的学习记录与实战代码。
-
+本项目是我学习《机器学习实战：基于 Scikit-Learn和 TensorFlow》的学习记录与实战代码。
+由于本书TensorFlow版本落后，所以深度学习进度暂时耽搁挂起一段时间，直到拿到最新的书籍资源后将重启进度
 ## 📂 项目结构说明
 - `Chapter02_Housing/`: 第 2 章 - 端到端房价预测项目（回归）
 - `Chapter03_Classification/`: 第 3 章 - MNIST 数字识别项目（分类）
