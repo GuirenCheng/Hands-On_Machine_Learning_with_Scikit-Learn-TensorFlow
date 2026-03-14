@@ -22,6 +22,8 @@ datasets/
 *.zip
 *.dot
 *.png
+# 但不要忽略这一张（Loss 曲线图）
+!Chapter09_Running_TensorFlow/loss_curve.png
 *.arff
 tf_logs/
 models/

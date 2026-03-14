@@ -10,6 +10,7 @@
 - `Chapter06_Decision_Trees/`: 第 6 章 - 决策树 (Decision Trees)
 - `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
 - `Chapter08_Dimension_Reduction/`: 第 8 章 - 降维技术（PCA, IPCA, kPCA, LLE）
+- `Chapter09_Running_TensorFlow/`: 第 9 章 - TensorFlow 基础与底层逻辑（手动实现梯度下降与 TensorBoard 集成）
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -48,7 +49,16 @@
     - 学习处理超大数据的 **增量 PCA (IPCA)** 及追求计算速度的 **随机 PCA**。
     - 深入理解 **核 PCA (kPCA)**，通过网格搜索优化超参数（如核函数类型与 $\gamma$ 值）处理非线性分布。
     - 掌握 **LLE (局部线性嵌入)** 算法，成功将“瑞士卷”等卷曲流形数据展开为低维平面。
+- [✅] **第 9 章：启动 TensorFlow**
+    - 理解 TensorFlow 2.x 的 **Eager Execution (动态图)** 机制与计算图原理。
+    - 手动实现 **线性回归模型**：从 `tf.Variable` 初始化到 `tf.GradientTape` 自动求导。
+    - **实战数据预处理**：掌握特征缩放（StandardScaler）对梯度下降收敛速度的决定性影响。
+    - **模型监控与可视化**：集成 **TensorBoard** 实时追踪 Loss 曲线，掌握通过 Smoothing 分析模型收敛趋势。
+    - 学习使用 **Checkpoints** 机制实现模型的保存与断点续训。
+![Loss Curve](./Chapter09_Running_TensorFlow/loss_curve.png)
 ## 🛠️ 技术栈
 - Python 3.10+
+- **TensorFlow 2.x** (Eager Execution)
+- **TensorBoard** (模型可视化)
 - Scikit-Learn
 - NumPy / Pandas / Matplotlib
