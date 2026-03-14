@@ -23,3 +23,5 @@ datasets/
 *.dot
 *.png
 *.arff
+tf_logs/
+models/
