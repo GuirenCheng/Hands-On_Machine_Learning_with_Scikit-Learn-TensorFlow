@@ -22,8 +22,13 @@ datasets/
 *.zip
 *.dot
 *.png
-# 但不要忽略这一张（Loss 曲线图）
-!Chapter09_Running_TensorFlow/loss_curve.png
+
 *.arff
 tf_logs/
 models/
+
+# 在文件末尾添加
+my_keras_model.h5
+my_keras_model.keras
+checkpoint/
+*.ckpt

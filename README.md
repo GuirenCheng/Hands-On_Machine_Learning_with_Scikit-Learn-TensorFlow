@@ -58,6 +58,17 @@
     - 掌握 **LLE (局部线性嵌入)** 算法，成功将“瑞士卷”等卷曲流形数据展开为低维平面。
 
 
+
+- [✅] **第 10 章：使用 Keras 搭建人工神经网络**
+    - **多 API 实践**：掌握了 `Sequential API` 的快速建模、`Functional API` 的灵活连接以及 `Subclassing API` 的高度自定义。
+    - **架构创新**：实现了 **Wide & Deep** 模型，通过跨接（Skip Connection）结合了模型的记忆能力与泛化能力。
+    - **多任务学习**：实践了带有辅助输出（Auxiliary Output）的架构，利用多个损失函数协同优化深度路径。
+    - **避坑指南**： 
+      - 解决了输入层维度不匹配（Flatten 层必要性）导致的 `ValueError`。 
+      - 理解了 `batch_size` 增大对起始 Loss 记录点和梯度平滑度的影响。
+    - **性能监控**：使用学习曲线（Loss/Accuracy Curve）诊断模型状态，识别并修复了模型不学习的“平行线”现象。
+
+
 ## 🛠️ 技术栈
 - Python 3.10+
 - **TensorFlow 2.x** (Eager Execution)
