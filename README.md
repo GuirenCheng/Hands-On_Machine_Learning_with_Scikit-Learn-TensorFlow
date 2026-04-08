@@ -18,6 +18,7 @@
 - `Chapter06_Decision_Trees/`: 第 6 章 - 决策树 (Decision Trees)
 - `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
 - `Chapter08_Dimension_Reduction/`: 第 8 章 - 降维技术（PCA, IPCA, kPCA, LLE）
+- `Chapter11_Training_Deep_Neural_Networks/`: 第 11 章 - 训练深度神经网络。涵盖梯度消失/爆炸解决方案（He初始化、非饱和激活函数、BN）、迁移学习、高级优化器及正则化技术。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -68,6 +69,12 @@
       - 理解了 `batch_size` 增大对起始 Loss 记录点和梯度平滑度的影响。
     - **性能监控**：使用学习曲线（Loss/Accuracy Curve）诊断模型状态，识别并修复了模型不学习的“平行线”现象。
 
+- [✅] **第 11 章：训练深度神经网络 (Training Deep Neural Networks)**
+    - **攻克梯度问题**：掌握 **He 初始化** 与 **ELU/SELU** 激活函数，解决深层网络中的梯度消失与爆炸。
+    - **加速训练**：实践 **批量归一化 (Batch Normalization)**，对比 **Adam、Nadam、RMSProp** 等先进优化器的收敛速度。
+    - **迁移学习**：学习如何重用预训练层，利用**无监督预训练**和**辅助任务**处理小样本数据。
+    - **正则化实战**：通过 **Dropout**、**MC Dropout** 和 **最大范数正则化** 显著提升模型的泛化能力。
+    - **学习率策略**：实现 **1周期调度 (1cycle)** 和 **ReduceLROnPlateau**，让模型训练兼顾速度与精度。
 
 ## 🛠️ 技术栈
 - Python 3.10+
