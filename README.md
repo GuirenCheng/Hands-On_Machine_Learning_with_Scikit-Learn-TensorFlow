@@ -18,6 +18,7 @@
 - `Chapter06_Decision_Trees/`: 第 6 章 - 决策树 (Decision Trees)
 - `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
 - `Chapter08_Dimension_Reduction/`: 第 8 章 - 降维技术（PCA, IPCA, kPCA, LLE）
+- `Chapter10_Introduction_of_Keras_Artificial_Neural_Network/`: 第 10 章 - Keras 与人工神经网络入门。涵盖感知器、多层感知器（MLP）、使用 Sequential API 和 Functional API 构建模型、模型保存与恢复及超参数调优。
 - `Chapter11_Training_Deep_Neural_Networks/`: 第 11 章 - 训练深度神经网络。涵盖梯度消失/爆炸解决方案（He初始化、非饱和激活函数、BN）、迁移学习、高级优化器及正则化技术。
 - `Chapter12_Customize_Models_And_Training_With_TensorFlow/`: 第 12 章 - 使用 TensorFlow 自定义模型和训练。深入底层 API，涵盖张量运算、自定义损失函数/指标/层/模型、自动微分（GradientTape）以及静态图（TF Function）性能优化。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
