@@ -19,6 +19,7 @@
 - `chapter07_Ensemble_Learning_and_Random_Forest/`: 第 7 章 - 集成学习（Bagging, Boosting, Stacking）与随机森林
 - `Chapter08_Dimension_Reduction/`: 第 8 章 - 降维技术（PCA, IPCA, kPCA, LLE）
 - `Chapter11_Training_Deep_Neural_Networks/`: 第 11 章 - 训练深度神经网络。涵盖梯度消失/爆炸解决方案（He初始化、非饱和激活函数、BN）、迁移学习、高级优化器及正则化技术。
+- `Chapter12_Customize_Models_And_Training_With_TensorFlow/`: 第 12 章 - 使用 TensorFlow 自定义模型和训练。深入底层 API，涵盖张量运算、自定义损失函数/指标/层/模型、自动微分（GradientTape）以及静态图（TF Function）性能优化。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -75,6 +76,13 @@
     - **迁移学习**：学习如何重用预训练层，利用**无监督预训练**和**辅助任务**处理小样本数据。
     - **正则化实战**：通过 **Dropout**、**MC Dropout** 和 **最大范数正则化** 显著提升模型的泛化能力。
     - **学习率策略**：实现 **1周期调度 (1cycle)** 和 **ReduceLROnPlateau**，让模型训练兼顾速度与精度。
+
+- [✅] **第 12 章：使用 TensorFlow 自定义模型和训练 (Custom Models and Training)**
+    - **张量与 NumPy 互操作**：掌握 `tf.Tensor` 的不可变性，及与 `tf.Variable`、`NumPy` 数组的无缝转换。
+    - **自定义模型组件**：实现自定义 **损失函数 (Huber Loss)**、**评估指标**、**初始化器**及**正则化项**。
+    - **高级层构建**：通过继承 `Layer` 类构建自定义层（处理多输入输出、状态管理），并实现 **自定义模型类 (Model Subclassing)**。
+    - **自动微分机制**：实战 `tf.GradientTape` 手写训练循环，实现比 `model.fit()` 更精细的梯度控制。
+    - **性能加速**：理解 **AutoGraph** 机制，利用 `@tf.function` 将 Python 函数即时编译为高效的计算图。
 
 ## 🛠️ 技术栈
 - Python 3.10+
