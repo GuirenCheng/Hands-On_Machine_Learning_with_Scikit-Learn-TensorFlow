@@ -21,6 +21,7 @@
 - `Chapter10_Introduction_of_Keras_Artificial_Neural_Network/`: 第 10 章 - Keras 与人工神经网络入门。涵盖感知器、多层感知器（MLP）、使用 Sequential API 和 Functional API 构建模型、模型保存与恢复及超参数调优。
 - `Chapter11_Training_Deep_Neural_Networks/`: 第 11 章 - 训练深度神经网络。涵盖梯度消失/爆炸解决方案（He初始化、非饱和激活函数、BN）、迁移学习、高级优化器及正则化技术。
 - `Chapter12_Customize_Models_And_Training_With_TensorFlow/`: 第 12 章 - 使用 TensorFlow 自定义模型和训练。深入底层 API，涵盖张量运算、自定义损失函数/指标/层/模型、自动微分（GradientTape）以及静态图（TF Function）性能优化。
+- `ch13_Loading_and_preprocessing_data_using_TensorFlow.ipynb`: 第 13 章 - 使用 TensorFlow 加载和预处理数据。实战高效数据流水线 `tf.data`，涵盖 TFRecord 序列化、特征列编码及 Keras 预处理层。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -84,6 +85,11 @@
     - **高级层构建**：通过继承 `Layer` 类构建自定义层（处理多输入输出、状态管理），并实现 **自定义模型类 (Model Subclassing)**。
     - **自动微分机制**：实战 `tf.GradientTape` 手写训练循环，实现比 `model.fit()` 更精细的梯度控制。
     - **性能加速**：理解 **AutoGraph** 机制，利用 `@tf.function` 将 Python 函数即时编译为高效的计算图。
+
+- [✅] **第 13 章：使用 TensorFlow 加载和预处理数据 (Data API)**
+    - **高性能流水线**：掌握 `tf.data` 的链式调用，通过 `.prefetch()` 实现 CPU 数据准备与 GPU 模型训练的并行。
+    - **大规模数据处理**：学习解析 CSV 文件、读写二进制 **TFRecord** 格式，解决海量数据无法一次性载入内存的痛点。
+    - **特征工程自动化**：实战 Keras 预处理层（Preprocessing Layers），将归一化、分类特征编码（One-Hot/Embedding）直接集成到模型中。
 
 ## 🛠️ 技术栈
 - Python 3.10+
