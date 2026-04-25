@@ -21,7 +21,8 @@
 - `Chapter10_Introduction_of_Keras_Artificial_Neural_Network/`: 第 10 章 - Keras 与人工神经网络入门。涵盖感知器、多层感知器（MLP）、使用 Sequential API 和 Functional API 构建模型、模型保存与恢复及超参数调优。
 - `Chapter11_Training_Deep_Neural_Networks/`: 第 11 章 - 训练深度神经网络。涵盖梯度消失/爆炸解决方案（He初始化、非饱和激活函数、BN）、迁移学习、高级优化器及正则化技术。
 - `Chapter12_Customize_Models_And_Training_With_TensorFlow/`: 第 12 章 - 使用 TensorFlow 自定义模型和训练。深入底层 API，涵盖张量运算、自定义损失函数/指标/层/模型、自动微分（GradientTape）以及静态图（TF Function）性能优化。
-- `ch13_Loading_and_preprocessing_data_using_TensorFlow.ipynb`: 第 13 章 - 使用 TensorFlow 加载和预处理数据。实战高效数据流水线 `tf.data`，涵盖 TFRecord 序列化、特征列编码及 Keras 预处理层。
+- `Chapter13_Loading_And_Preprocessing_Data_Using_TensorFlow/`: 第 13 章 - 使用 TensorFlow 加载和预处理数据。实战高效数据流水线 `tf.data`，涵盖 TFRecord 序列化、特征列编码及 Keras 预处理层。
+- `Chapter14_Deep_Computer_Vision_Using_Convolutional_Neural_Network/`: 第 14 章 - 卷积神经网络。深入视觉皮层原理，实战卷积/池化层、经典架构（ResNet, Xception）、物体检测（YOLO/SSD）及语义分割（FCN）。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -90,6 +91,12 @@
     - **高性能流水线**：掌握 `tf.data` 的链式调用，通过 `.prefetch()` 实现 CPU 数据准备与 GPU 模型训练的并行。
     - **大规模数据处理**：学习解析 CSV 文件、读写二进制 **TFRecord** 格式，解决海量数据无法一次性载入内存的痛点。
     - **特征工程自动化**：实战 Keras 预处理层（Preprocessing Layers），将归一化、分类特征编码（One-Hot/Embedding）直接集成到模型中。
+
+- [✅] **第 14 章：卷积神经网络 (CNN) 实战**
+    - **特征提取原理**：理解卷积核如何通过权重共享提取空间特征，以及池化层如何实现平移不变性。
+    - **经典架构演进**：调研从 LeNet-5 到 ResNet、Xception 等深度架构的演进，掌握跳跃连接（Skip Connections）解决梯度问题的策略。
+    - **迁移学习与微调**：实战利用 `keras.applications` 加载预训练模型，在自定义数据集上进行高效迁移学习。
+    - **全栈视觉任务**：探索物体检测（Bounding Boxes）、锚框（Anchors）原理，以及语义分割中的转置卷积（Transposed Convolution）与像素级分类。
 
 ## 🛠️ 技术栈
 - Python 3.10+
