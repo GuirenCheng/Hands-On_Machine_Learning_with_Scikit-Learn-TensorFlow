@@ -23,6 +23,7 @@
 - `Chapter12_Customize_Models_And_Training_With_TensorFlow/`: 第 12 章 - 使用 TensorFlow 自定义模型和训练。深入底层 API，涵盖张量运算、自定义损失函数/指标/层/模型、自动微分（GradientTape）以及静态图（TF Function）性能优化。
 - `Chapter13_Loading_And_Preprocessing_Data_Using_TensorFlow/`: 第 13 章 - 使用 TensorFlow 加载和预处理数据。实战高效数据流水线 `tf.data`，涵盖 TFRecord 序列化、特征列编码及 Keras 预处理层。
 - `Chapter14_Deep_Computer_Vision_Using_Convolutional_Neural_Network/`: 第 14 章 - 卷积神经网络。深入视觉皮层原理，实战卷积/池化层、经典架构（ResNet, Xception）、物体检测（YOLO/SSD）及语义分割（FCN）。
+- `Chapter15_Using_RNN_and_CNN_to_Process_Sequences/`: 第 15 章 - 使用 RNN 和 CNN 处理序列。涵盖时间序列预测、线性回归基准、深度 RNN、LSTM/GRU 门控机制以及 WaveNet 等一维卷积架构。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -97,6 +98,12 @@
     - **经典架构演进**：调研从 LeNet-5 到 ResNet、Xception 等深度架构的演进，掌握跳跃连接（Skip Connections）解决梯度问题的策略。
     - **迁移学习与微调**：实战利用 `keras.applications` 加载预训练模型，在自定义数据集上进行高效迁移学习。
     - **全栈视觉任务**：探索物体检测（Bounding Boxes）、锚框（Anchors）原理，以及语义分割中的转置卷积（Transposed Convolution）与像素级分类。
+
+- [✅] **第 15 章：使用 RNN 和 CNN 处理序列 (Time Series & Sequences)**
+    - **时间序列基础**：掌握单步与多步预测，对比“预见未来”的线性模型与深度循环神经网络的表现差异。
+    - **长时记忆优化**：深入理解梯度消失问题，实战 **LSTM**（三门结构）与 **GRU**（简化门控）解决长序列依赖。
+    - **高级架构实践**：探索 **Seq2Seq**（序列到序列）预测，以及使用 **1D-CNN (WaveNet)** 显著提升长序列处理的训练速度。
+    - **性能优化**：对比 `SimpleRNN`、`LSTM` 和 `Conv1D` 的推理效率，掌握中间层 `return_sequences=True` 的必要性。
 
 ## 🛠️ 技术栈
 - Python 3.10+
