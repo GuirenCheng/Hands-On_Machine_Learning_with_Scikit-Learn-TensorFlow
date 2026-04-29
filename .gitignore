@@ -22,6 +22,7 @@ datasets/
 *.zip
 *.dot
 *.png
+!Chapter16_Natural_Language_Processing_Using RNN_and_Attention_Mechanism/transformer.png
 
 *.arff
 tf_logs/

@@ -24,6 +24,7 @@
 - `Chapter13_Loading_And_Preprocessing_Data_Using_TensorFlow/`: 第 13 章 - 使用 TensorFlow 加载和预处理数据。实战高效数据流水线 `tf.data`，涵盖 TFRecord 序列化、特征列编码及 Keras 预处理层。
 - `Chapter14_Deep_Computer_Vision_Using_Convolutional_Neural_Network/`: 第 14 章 - 卷积神经网络。深入视觉皮层原理，实战卷积/池化层、经典架构（ResNet, Xception）、物体检测（YOLO/SSD）及语义分割（FCN）。
 - `Chapter15_Using_RNN_and_CNN_to_Process_Sequences/`: 第 15 章 - 使用 RNN 和 CNN 处理序列。涵盖时间序列预测、线性回归基准、深度 RNN、LSTM/GRU 门控机制以及 WaveNet 等一维卷积架构。
+- `Chapter16_Natural_Language_Processing_Using_RNN_and_Attention_Mechanism`: 第 16 章 - 自然语言处理。涵盖字符级 RNN 生成文本、编码器-解码器架构、注意力机制 (Attention) 以及 Transformer 与 BERT 的原理解析。
 - `requirements.txt`: 项目所需的 Python 依赖包清单
 
 ## 🚀 学习进度
@@ -105,6 +106,14 @@
     - **高级架构实践**：探索 **Seq2Seq**（序列到序列）预测，以及使用 **1D-CNN (WaveNet)** 显著提升长序列处理的训练速度。
     - **性能优化**：对比 `SimpleRNN`、`LSTM` 和 `Conv1D` 的推理效率，掌握中间层 `return_sequences=True` 的必要性。
 
+- [✅] **第 16 章：自然语言处理 (NLP with RNN & Attention)**
+    - **文本生成实战**：实现字符级 RNN (Char-RNN)，模拟莎士比亚风格进行文本创作，掌握有状态 RNN (Stateful RNN) 的技巧。
+    - **情感分析**：通过掩码（Masking）处理变长序列，利用预训练词嵌入（Word Embeddings）快速搭建情感分类模型。
+    - **神经机器翻译 (NMT)**：构建编码器-解码器 (Encoder-Decoder) 架构，实现端到端的翻译逻辑。
+    - **注意力机制与 Transformer**：深入探究“注意力就是一切 (Attention is All You Need)”，理解位置编码、多头注意力（Multi-Head Attention）以及现代 LLM 的基石。
+    - **预训练模型进化**：对比分析 GPT (仅解码器)、BERT (仅编码器) 与 T5 (全架构) 的设计哲学与训练目标。
+### 第 16 章核心架构：Transformer
+![Transformer Architecture](transformer.png)
 ## 🛠️ 技术栈
 - Python 3.10+
 - **TensorFlow 2.x** (Eager Execution)
