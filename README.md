@@ -113,7 +113,7 @@
     - **注意力机制与 Transformer**：深入探究“注意力就是一切 (Attention is All You Need)”，理解位置编码、多头注意力（Multi-Head Attention）以及现代 LLM 的基石。
     - **预训练模型进化**：对比分析 GPT (仅解码器)、BERT (仅编码器) 与 T5 (全架构) 的设计哲学与训练目标。
 ### 第 16 章核心架构：Transformer
-![Transformer Architecture](transformer.png)
+![Transformer Architecture]('Chapter16_Natural_Language_Processing_Using_RNN_and_Attention_Mechanism/transformer.png')
 ## 🛠️ 技术栈
 - Python 3.10+
 - **TensorFlow 2.x** (Eager Execution)
